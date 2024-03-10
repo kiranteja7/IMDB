@@ -1,6 +1,6 @@
 
 const apiKey = '96cb4a99';
-const URI= `http://www.omdbapi.com/?apikey=${apiKey}`;
+const URI= `https://www.omdbapi.com/?apikey=${apiKey}`;
 
 //FETCH MOVIES 
 async function fetchMovies(totalResults = 400) {
@@ -145,7 +145,7 @@ async function filterDetailsByLanguage(){
 
     for (const [lang, moviesArray] of Object.entries(language)) {
         for(let i=0;i<moviesArray.length;i++){
-            const apiUrl= `http://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(moviesArray[i])}&language=${lang}`;
+            const apiUrl= `https://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(moviesArray[i])}&language=${lang}`;
             const data= await fetchAPI(apiUrl);
             if(data.Response==='True'){
               if(lang==='en'){
