@@ -1,0 +1,131 @@
+
+body{
+    background-color: black;
+    margin: 3rem;
+}
+
+.container {
+    background-color: black;
+  }
+
+.navbar-brand {
+    font-size: 24px;
+  }
+
+  .search-bar {
+    width: 10rem;
+    max-width: 600px; /* Set maximum width for large screens */
+  }
+
+
+  .navbar-brand {
+    font-size: 24px;
+    color: yellow !important;
+  }
+  .search-bar {
+    background-color: white;
+    color: black;
+    width: 100%;
+    max-width: 600px; /* Set maximum width for large screens */
+  }
+  .nav-link .fa-heart {
+    color: red;
+  }
+
+  .spacer{
+    margin: 2rem;
+    padding: 1rem;
+    height: 2rem;
+  }
+
+  .movies-2024{
+    color: yellow;
+  }
+
+  .carousel-content {
+    background-color: white;
+    padding: 10px;
+  }
+  .carousel-content h5 {
+    color: yellow;
+  }
+  .carousel-img {
+    height: 300px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure images cover the container */
+  }
+
+  .carousel-dark{
+    background-color: #343a40;
+  }
+
+  .card {
+    background-color: black; /* Set card background color to black */
+    color: white; /* Set card text color to white */
+  }
+
+  .carousel-content {
+    background-color: black; /* Change the background color to black */
+    padding: 10px;
+  }
+
+  .carousel-item {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* adding fade transition */
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Change to desired color */
+}
+
+
+#image{
+   width: 600px;
+   height: 700px;
+}
+
+.white{
+  color: white;
+}
+
+.small-spacer{
+  margin: 0.5rem;
+  padding: 1rem;
+  height: 0.5rem;
+}
+
+
+.yellow-colour{
+  color: yellow;
+}
+
+
+.movie-card-container {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.movie-card {
+  width: 30%; /* Adjust the width as needed */
+  margin-bottom: 20px; /* Add some margin between cards */
+}
+
+.movie-card .card {
+  width: 100%;
+}
+
+.movie-card .card-img-top {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.fa-face-sad-tear{
+  color: white;
+  font-size: 2rem;
+}
